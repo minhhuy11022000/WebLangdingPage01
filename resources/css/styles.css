@@ -48,7 +48,7 @@ html{
     margin: 0 auto;
 }
 
-h1,h2{
+h1,h2,h3{
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -78,6 +78,17 @@ h2::after{
     margin-top: 5px;
 }
 
+h3{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #265077;
+    color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    margin-bottom: 15px;
+}
+
 .p-long{
     text-align: center;
     color: #265077;
@@ -90,7 +101,12 @@ h2::after{
 
 section{
     padding: 50px;
-    
+}
+
+.small-icon{
+    color: #3f5c77;
+    font-size: 130%;
+    margin-right: 10px;
 }
 
 /* ---------------------------------- */
@@ -184,3 +200,45 @@ header{
     filter: blur(2px) brightness(50%);
 }
 
+/* --------------------------------------------- */
+/* ----------------Products section------------------- */
+/* ----------------------------------------- */
+
+.product-section{
+    background-color: #f4f4f4;
+}
+
+.product-section h2{
+    margin-bottom: 60px;
+}
+
+.product-box{
+    background-color: #eeffff;
+    box-shadow: 3px 5px 10px #e0e0e0;
+    width: 90%;
+    height: 350px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.product-price{
+    color: #265077;
+    font-size: 250%;
+    font-weight: 300;
+    text-align: center;
+}
+
+.product-price span{
+    font-size: 70%;
+}
+
+.product-box ul li{
+    margin-left: 20%;
+    list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-box .btn{
+    margin-left: 20%;
+}
