@@ -153,5 +153,7 @@ header{
 
 .about-picture img{
     width: 90%;
+    border-radius: 20px;
+    border: 4px solid #a8c6e2;
 }
 
