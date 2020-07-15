@@ -44,7 +44,7 @@ html{
 }
 
 .row{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -241,4 +241,211 @@ header{
 
 .product-box .btn{
     margin-left: 20%;
+}
+/* ------------------------------------ */
+/* ---------------Testimonials-section----------- */
+/* ----------------------------------------- */
+
+.testimonials-section{
+    background-image: linear-gradient(45deg,rgba(2,33,64, 0.8),rgba(45,95,93, 0.85)), url(/resources/img/background2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonials-section h2{
+    margin-bottom: 70px;
+}
+
+blockquote{
+    width: 95%;
+    position: relative;
+    font-style: italic;
+    line-height: 140%;
+    color: white;
+}
+
+blockquote::before{
+    content: "\201C";
+    display: block;
+    font-size: 400%;
+    position: absolute;
+    top: -10px;
+    left: -5px;
+}
+
+cite{
+    display: block;
+    color: #4e769b;
+    margin-top: 25px;
+}
+
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #265077;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* ------------------------------------------ */
+/* ------------------Sponsors-section------------------- */
+/* ------------------------------------------- */
+.sponsors-section{
+    background-color: #f4f4f4;
+}
+
+.sponsors-section h2{
+    margin-bottom: 50px;
+}
+
+.sponsors-showcase{
+    margin-left: 10%;
+    
+}
+
+.sponsors-showcase li{
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-sponsor{
+    width: 140px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.sponsors-showcase li .logo-sponsor:hover,
+.sponsors-showcase li .logo-sponsor:active{
+    transform: scale(1.1); 
+}
+
+figcaption{
+    color: #265077;
+    font-size: 120%;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------ */
+/* -------------------------Contact section------------------------ */
+/* ------------------------------------------------------- */
+.contact-section{
+    background-image: linear-gradient(45deg,rgba(2,33,64, 0.8),rgba(45,95,93, 0.85)),url('../img/background5.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+/* --------------------------------- */
+/* -----------------Footer-------------------- */
+/* --------------------------------------- */
+footer{
+    text-align: center;
+    background-color: #4e4e4e;
+    color: white;
+    padding: 20px;
+}
+
+.information{
+    list-style: none;
+    color: white;
+    line-height: 200%;
+    margin-top: 70px;
+    word-spacing: 1px;
+    font-size: 95%;
+}
+
+.information .small-icon{
+    color: #356b9e;
+}
+
+.information .small-icon:hover,
+.information .small-icon:active{
+    transform: scale(1.3);
+}
+
+.social-icon{
+    list-style: none;
+    margin-top: 50px;
+}
+
+.social-icon li{
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 250%;
+}
+
+.social-icon li i{
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.social-icon li i:hover,
+.social-icon li i:active{
+    transform: scale(1.3);
+}
+
+/* -----------------form------------------- */
+form{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-left: 40%;
+    width: 68%;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+form .row{
+    margin-bottom: 20px;
+}
+
+label{
+    font-size: 150%;
+    color: white;
+}
+
+input,textarea{
+    outline: none;
+    padding: 10px;
+    background-color: rgba(48, 47, 47, 0.3);
+    border: 1px solid rgba(29, 28, 28, 0.8);
+    margin-left: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+}
+
+input{
+    height: 50px;
+}
+
+input[type=text], input[type=email],textarea{
+    width: 80%;
+    font-size: 100%;
+    transition: all .3s;
+}
+
+input[type=text]:focus, input[type=email]:focus,textarea:focus{
+    color: white;
+    background-color: rgba(48, 47, 47, 0.8);
+}
+
+form .row:last-child{
+    text-align: center;
+}
+
+input[type=submit]{
+    font-weight: 700;
+    font-size: 100%;
+    border-radius: 5px;
+    width: 60%;
 }
