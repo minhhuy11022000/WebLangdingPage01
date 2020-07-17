@@ -15,6 +15,10 @@ html{
     text-rendering: optimizeLegibility;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* ------------------------------------ */
 /* ------------REUSABLE COMPONENT----------- */
 /* ----------------------------------------- */
@@ -416,7 +420,6 @@ input,textarea{
     border: 1px solid rgba(29, 28, 28, 0.8);
     margin-left: 30px;
     border-radius: 5px;
-    cursor: pointer;
 }
 
 textarea{
