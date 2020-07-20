@@ -130,6 +130,7 @@ header{
     float: left;
     margin-left: 70px;
     margin-top: -50px;
+    margin-bottom: -100px;
 }
 
 .main-nav{
@@ -165,6 +166,42 @@ header{
     left: 50%;
     transform: translate(-45%,-55%);
     width: 1140px;
+}
+
+/* ------sticky-------- */
+.sticky{
+    background-color: rgba(2, 33, 64, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.sticky .logo{
+    width: 250px;
+    margin-top: -40px;
+    margin-bottom: -70px;
+}
+
+.sticky .main-nav{
+    margin-top: 30px;
+}
+
+/* -----------mobile navigation icon----- */
+.mobile-nav-icon{
+    font-size: 200%;
+    color: #6b95bd;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    cursor: pointer;
+    display: none;
+}
+
+.sticky .mobile-nav-icon{
+    top: 30px;
 }
 
 /* --------------------------------------------- */

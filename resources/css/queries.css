@@ -79,7 +79,11 @@
         width: 100%;
     }
     .main-nav{
-        visibility: hidden;
+        display: none;
+    }
+
+    .mobile-nav-icon{
+        display: block;
     }
 
     .logo{
@@ -158,6 +162,18 @@
     .social-icon li{
         font-size: 60px;
     }
+
+    .mobile-nav-icon{
+        top: 40px;
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width:577px){
+    .mobile-nav-icon{
+        top: 40px;
+        right: 50px;
+    }
 }
 
 /* Small phones  from 0 to 480px */
@@ -199,5 +215,19 @@ l
     form{
         width: 90%;
         margin-left: 5%;
+    }
+
+    .mobile-nav-icon{
+        top: 105px;
+        right: 50px;
+    }
+
+    .sticky .logo{
+        width: 230px;
+        margin-top: -25px;
+    }
+
+    .sticky .mobile-nav-icon{
+        top: 40px;
     }
 }
